@@ -1,0 +1,229 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?","is anyone there?"],
+  "responses": ["Hello! What can I do for you?","Hey!","What can I do for you?","What's on your mind?","Good day people!","I am fine"],
+   "set": ""
+  },
+  {"tag": "name",
+  "patterns": ["what is your name","who is this","who am i talking to now","name","what's your name","who are you","what should I call you","what is your nickname","what people call you"],
+  "responses": ["You can call me Dr.Bot.\nNice to meet you.","I'm Dr.Bot\nGood to see you.","I'm Dr.Bot. Your virtual assistant.\nNice to meet you.","I am Doctor Bot.\nGood to see you."],
+  "set": ""
+  },
+  {
+   "tag": "sad",
+   "patterns": [
+    "i am sad ",
+    "i am upset",
+    "i am moody",
+    "i am not okay"
+   ],
+   "responses": [
+    "No problem. Everything will be okay",
+    "'There is only one happiness in life, to love and be loved' \n- George Sand.",
+    "Let me motivate you...\nNot everyone likes you. So grow up kid!\n- Doctor Bot",
+    "'Cry. Forgive. Learn. Move on. \nLet your tears water the seeds of your future happiness' \n- Steve Maraboli",
+    "I am here for you, how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "funny",
+   "patterns": [
+    "you have good sense of humour",
+    "you are funny bot"
+   ],
+   "responses": [
+    "Yes i have good sense of humour.",
+    "Thanks for your compliment"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "positive",
+   "patterns": [
+    "ok",
+    "good cool",
+    "yes wow you are so intelligent ",
+    "hurray i am happy",
+    "i am doing good",
+    "alright",
+    "orait",
+    "got it",
+    "ok ok"
+   ],
+   "responses": [
+    "I Hope you are getting your answers cleared.",
+    "I hope my response does bring some changes.",
+    "I hope you got what you've searching for.",
+    "Wow, appreciate that you understand."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye",
+    "ciao",
+    "I am leaving",
+    "bye bye",
+    "see ya",
+    "i think i need some rest"
+   ],
+   "responses": [
+    "See you later, thanks for visiting me bossku!",
+    "Have a nice day",
+    "Bye! Come back again soon.",
+    "Talk you later",
+    "Alright mate! Catch you later!",
+    "Bella ciao, bella ciao, bella ciao ciao ciao!"
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thank you",
+    "I appreciate it",
+    "That's helpful",
+    "Thanks for helping me"
+   ],
+   "responses": [
+    "Happy to help!",
+    "Any time!",
+    "Not to mention bossku!",
+    "You're welcome!",
+    "My pleasure bossku!"
+   ]
+  },
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Are you an alien?\nCan you type English?"]
+  },
+  {"tag": "headache",
+  "patterns": ["what information do you have on headache", "tell me something about headache","do you have something on headache","headache","what you know about headache","one of my friend had headache","what you know about migraine","migraine","migrane","what cause headache","i feel i got headache","i think im having migraine","why my head is pain"],
+  "responses": ["A headache is described simply as a continuous pain in the head.\nA Migraine is defined as a recurrent throbbing headache that typically affects one side of the head and is often accompanied by nausea and disturbed vision.\nMigraines are the 3rd most common illness in the world.\nMigraines are not just simple pains in the head either,\nthe symptoms they can bring are\nvisual disturbances, nausea, vomiting, dizziness,\nextreme sensitivity to sound, light, touch and smell, and tingling or numbness in the extremities or face \n(https://migraineresearchfoundation.org).",
+                "Headache is pain or discomfort in the head or face.\nHeadaches vary greatly in terms of the location and intensity of the pain, and how often the headaches occur.\nThe brain tissue doesn’t have pain-sensitive nerve fibers and doesn’t feel pain.\nBut, other parts of the head can be responsible for a headache too. Visit this site for more information about the headache (https://www.mayoclinic.org/diseases-conditions/migraine-headache/symptoms-causes/syc-20360201)",
+		    "Headache pain results from signals interacting among the brain,\nblood vessels and surrounding nerves.\nDuring a headache, an unknown mechanism activates specific nerves that affect muscles and blood vessels.\nThese nerves send pain signals to the brain."],
+  "set": ""
+  },
+  {
+   "tag": "headachesymptom",
+   "patterns": [
+    "symptoms of headache",
+    "can you educate me with headache symptoms",
+    "evaluate headache symptoms",
+    "get me info about headache symptoms",
+    "do you know symptoms for headache"
+   ],
+   "responses": [
+    "Yes, hold on.\nTension headaches are the most common type of headache. Tension headache pain tends to be:\n-Consistent without throbbing.\n-Mild to moderate.\n-On both sides of the head (bilateral).\n-Responsive to over-the-counter treatment.\n-Worse during routine activities (such as bending over or walking upstairs).\n2Migraines are the second most common type of primary headaches. Symptoms of migraines include:\n-Moderate to severe pain.\n-Nausea or vomiting.\n-Pounding or throbbing pain.\n-Pain that lasts four hours to three days.\n-Sensitivity to light, noise or odors.\n-Stomach upset or abdominal pain.\n3Cluster headaches are the most severe type of primary headache.Cluster headaches come in a group or cluster, usually in the spring or fall.\nThey occur one to eight times per day during a cluster period, which may last two weeks to three months.\nThe headaches may disappear completely (go into remission) for months or years, only to recur later. The pain of a cluster headache is:\n-Intense with a burning or stabbing sensation.\n-Located behind one of your eyes or in the eye region, without changing sides.\n-Throbbing or constant.\n4Sinus headaches are the result of a sinus infection, which causes congestion and inflammation in the sinuses (open passageways behind the cheeks and forehead). People, and even healthcare providers, often mistake migraines for sinus headaches. Symptoms of sinus headaches include:\n-Bad taste in mouth.\n-Deep, constant pain in your cheekbones and forehead.\n-Facial swelling.\n-Feeling of fullness in ears.\n-Fever.\n-Pain that gets worse with sudden head movement or straining.\n-Mucus discharge (snot).\n5Most kids have had a headache by the time they get to high school. \nFor about 20% of them, tension headaches and migraines are a reoccurring problem.\nSimilar to adults, triggers for headaches in children include:\n-Certain foods that trigger headaches for the individual.\n-Changes in sleep.\n-Environmental factors.\n-Stress.\n6If you has any of these headache symptoms, get medical care right away:\n-A sudden headache\n-A headache that is associated with neurological symptoms such as:\n-Dizziness\n-Sudden loss of balance or falling\n-Numbness or tingling\n-Speech difficulties\n-Mental confusion\n-Seizures"]
+  },
+  {
+   "tag": "headachesolution",
+   "patterns": [
+    "can you help me with my headache",
+    "how to prevent headache",
+    "suggest me a way to prevent headache",
+    "get me a way to prevent headache",
+    "a solution for headache please"
+   ],
+   "responses": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "filter": "historydetails"
+  },
+  {
+   "tag": "Cart",
+   "patterns": [
+    "Cart",
+    "Cart details"
+   ],
+   "responses": [
+    "Your cart contains: \n1)Watch.\n2)Clock"
+   ],
+   "filter": "orderid"
+  },
+  {
+   "tag": "offers",
+   "patterns": [
+    "show me the offers",
+    "What kinds of deals do you have?"
+   ],
+   "responses": [
+    "Are you looking for deals on watches or smartphones?"
+   ],
+   "set": "productoffers"
+  },
+  {
+   "tag": "watches",
+   "patterns": [
+    "watches"
+   ],
+   "responses": [
+    "For about $100, you can get a 10X gold watch."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "smartphones",
+   "patterns": [
+    "smartphones"
+   ],
+   "responses": [
+    "XYZ Phone is available at $75 only."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "Products",
+   "patterns": [
+    "products available",
+    "show me available items"
+   ],
+   "responses": [
+    "Products available:\n1) Watch \n2) Smartphone \n3) Clock"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "samsung",
+   "patterns": [
+    "samsung",
+    ""
+   ],
+   "responses": [
+    "sucks",
+    "is shit"
+   ],
+   "context": ""
+  },
+  {
+   "tag": "love",
+   "patterns": [
+    "purnima",
+    ""
+   ],
+   "responses": [
+    "I <3 you madam",
+    ""
+   ],
+   "context": ""
+  },
+  {
+   "tag": "sivenesh",
+   "patterns": [
+    "sivenesh",
+    ""
+   ],
+   "responses": [
+    "sappi payale",
+    "bokana kotte"
+   ],
+   "context": ""
+  }
+ ]
+}
